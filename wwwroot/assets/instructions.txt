@@ -1,0 +1,2 @@
+git access token for VS 
+vscode://vscode.github-authentication/did-authenticate?windowid=1&code=69f2664658bb52ee32ca&state=902c936f-7eae-4f52-9ce9-b2d39251259c

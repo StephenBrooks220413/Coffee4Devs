@@ -1,0 +1,156 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="carouselExampleIndicators" class="carousel slide content-box" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <h1 class="display-4"><span>F</span>resh and <span>R</span>oasted</h1>
+            <h2>
+                Coffee Plants are home grown <br>
+                23 varieties to choose from
+            </h2>
+        </div>
+        <div class="carousel-item">
+            <h1 class="display-4"><span>G</span>rinded and <span>S</span>old</h1>
+            <h2>
+                Bagged at locations right after processing <br>
+                Different raosted blends available
+            </h2>
+        </div>
+        <div class="carousel-item">
+            <h1 class="display-4"><span>A</span>lways <span>N</span>earby</h1>
+            <h2>
+                Stores in 23 locations in America <br>
+                Growing fast and always looking for talent
+            </h2>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<!-- article section -->
+<div class="container" style="margin-top:110px;">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="https://images.unsplash.com/photo-1522012188892-24beb302783d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" width="90%" alt="coffee">
+        </div>
+        <div class="col-md-6">
+            <h1 class="text-center">Ready to Go Blends</h1>
+            <p class="text-center">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <br> <br>
+            <ul>
+                <li>Esspresso $2.35 a cup</li>
+                <li>Machiato $3.15 a cup</li>
+                <li>House Blend $1.85 a cup</li>
+                <li>Latte' $2.75 a cup</li>
+            </ul>
+            <br> <br>
+            <center>
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="coffee cups" width="60%">
+            </center>
+        </div>
+    </div>
+</div>
+<br /><br /><br /><br />
+<!-- Owner Section -->
+<div class="spacer">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-6">
+                <img src="https://images.unsplash.com/photo-1537511446984-935f663eb1f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="businessman photo" width="95%">
+            </div>
+            <div class="col-md-6">
+                <h1>Owner of Coffee Cafe'</h1>
+                <p>
+                    Ever since 2002 we strived to best the coffee shop around the corner and we have consitently brewed over 7 flavors. We are the first to offer grinded coffee flavors for the best tasting and smelling coffee in your kitchen. Garaunteed freshness and high qaulity in every batch, we recommend taste testing each one at our store locations before you buy a bag of your own. Click on the button below to view our store locations: <br>
+                    <span id="info" class="info-box">Locations</span>
+                </p>
+                <button type="submit" onclick="info();" class="btn btn-info">Locations</button> <button onclick="reset()" type="reset" class="btn btn-danger">Reset</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- article -->
+<article itemprop="article" style="margin-top:70px;">
+    <div class="container">
+        <h1 class="display-4 text-center">Read Worthy Articles</h1>
+        <center>
+            <img src="https://th.bing.com/th/id/OIP.UN-FWwRM9FDl2pLqswNtJQHaEe?pid=Api&rs=1" width="260px" height="190px" alt="coffee">
+        </center>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h3>Customer Reviews</h3>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                <br><br>
+                <a type="button" class="btn btn-primary" href="#">Read More</a>
+            </div>
+            <div class="col-md-4">
+                <h3>Employee Reviews</h3>
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
+                <br><br>
+                <a type="button" class="btn btn-primary" href="#">Read More</a>
+            </div>
+            <div class="col-md-4">
+                <h3>Franchisee Reviews</h3>
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <br><br>
+                <a type="button" class="btn btn-primary" href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+</article>
+<center>
+    <div class="container jumbotron" style="margin-top:70px;">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="~/assets/top-1.jpg" alt="coffee" width="90%" />
+            </div>
+            <div class="col-md-6">
+                <h1>Grown in Utah</h1>
+                <hr>
+                <p>
+                    Made from expert farmers and best in the field of coffee beans.
+                    Hand picked by consumers to garauntee the ultmiate experience in
+                    every cup served, hot or cold.
+                </p>
+                <br> <br>
+                <h1>Have suggestions?</h1>
+                <form name="contact" method="POST" data-netlify="true">
+                    <p>
+                        <label>Your Name: <input type="text" name="name" required /></label>
+                    </p>
+                    <p>
+                        <label>Your Email: <input type="email" name="email" required /></label>
+                    </p>
+                    <p>
+                        <label>Message: <textarea name="message" required spellcheck="True" maxlength="255"></textarea></label>
+                    </p>
+                    <p>
+                        <button class="btn btn-primary" type="submit">Send</button> <button class="btn btn-danger" type="reset">Clear</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</center>

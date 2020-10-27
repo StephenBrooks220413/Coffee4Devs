@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Contact Page";
+}
+
+<div class="container text-center" style="margin-top:60px;">
+    <div class="jumbotron">
+        <h1 class="display-4">Contact Us</h1>
+        <address>
+            1153 Main Way St. - Chicago, IL. 55505 <br>
+            555-555-5555
+        </address>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Your Name: <input type="text" name="name" required /></label>
+            </p>
+            <p>
+                <label>Your Email: <input type="email" name="email" required /></label>
+            </p>
+            <p>
+                <label>Message: <textarea name="message" required spellcheck="True" maxlength="255"></textarea></label>
+            </p>
+            <p>
+                <button class="btn btn-primary" type="submit">Send</button> <button class="btn btn-danger" type="reset">Clear</button>
+            </p>
+        </form>
+    </div>
+</div>

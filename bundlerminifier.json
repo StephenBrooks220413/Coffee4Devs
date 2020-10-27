@@ -1,0 +1,26 @@
+[
+  {
+    "OutPutFileName": "wwwroot/css/site.min.css",
+    "InPutFileName": [
+      "wwwroot/css/site.css"
+    ]
+  },
+  {
+    "OutPutFileName": "wwwroot/js/site.min.js",
+    "InPutFileName": [
+      "wwwroot/js/site.js"
+    ]
+  },
+  {
+    "OutPutFileName": "wwwroot/lib/bootstrap/dist/css/bootstrap-lumen.min.css",
+    "InPutFileName": [
+      "wwwroot/lib/bootstrap/dist/css/bootstrap-lumen.css"
+    ]
+  },
+  {
+    "OutPutFileName": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.js",
+    "InPutFileName": [
+      "wwwroot/lib/bootstrap/dist/css/bootstrap.js"
+    ]
+  }
+]
