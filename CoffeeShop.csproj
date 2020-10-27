@@ -20,8 +20,4 @@
     <PackageReference Include="NetlifySharp" Version="1.1.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\assets\" />
-  </ItemGroup>
-
 </Project>
